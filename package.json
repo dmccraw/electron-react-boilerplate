@@ -43,6 +43,7 @@
     "babel-core": "^5.6.18",
     "babel-eslint": "^4.1.0",
     "babel-loader": "^5.1.2",
+    "babel-runtime": "^5.8.20",
     "chai": "^2.3.0",
     "css-loader": "^0.12.1",
     "del": "^1.2.0",
@@ -66,6 +67,7 @@
     "raw-loader": "^0.5.1",
     "react-hot-loader": "^1.2.7",
     "react-proxy-loader": "^0.3.4",
+    "redux-devtools": "^2.1.0",
     "sinon": "^1.14.1",
     "stats-webpack-plugin": "^0.1.0",
     "style-loader": "^0.12.2",
@@ -75,12 +77,18 @@
     "webpack-target-electron-renderer": "^0.1.0"
   },
   "dependencies": {
+    "bootstrap": "^3.3.5",
+    "core-js": "^1.1.4",
     "debug": "^2.2.0",
     "electron-debug": "^0.1.1",
     "flux": "^2.0.3",
     "keymirror": "^0.1.1",
     "object-assign": "^2.0.0",
     "react": "^0.13.3",
-    "react-router": "^0.13.3"
+    "react-bootstrap": "^0.25.1",
+    "react-redux": "^2.1.0",
+    "react-router": "^0.13.3",
+    "redux": "^2.0.0",
+    "teamsnap.js": "^1.6.0"
   }
 }
